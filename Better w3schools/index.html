@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        W3Schools Online Web Tutorials
+    </title>
+    <link rel="shortcut icon" href="https://www.w3schools.com/favicon.ico">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="hfixed">
+        <div class="flex bg-white justify-between items-center w-full">
+        <div>
+            <a href="index.html">
+                <img src="image/logo-w3.png" alt="logo-w3">
+            </a>
+        </div>
+        <nav>
+            <a href="#" class="p-4 lorem1">
+                Tutorials
+                <i class="fas fa-caret-down"></i>
+            </a>
+            <a href="#" class="p-4 lorem1">
+                Exercises
+                <i class="fas fa-caret-down"></i>
+            </a>
+            <a href="#" class="p-4 lorem1">
+                Certificates
+                <i class="fas fa-caret-down"></i>
+            </a>
+            <a href="#" class="p-4 lorem1">
+                Services
+                <i class="fas fa-caret-down"></i>
+            </a>
+        </nav>
+        <div class="relative">
+        <form action="#" class="flex ">
+            <input type="search" placeholder="search..." class="search w-7 ">
+            <span class="absolute zare">
+                <a href="#">
+                <svg width="15" height="15" viewBox="0 0 17 17" fill="var(--sf-accent-overlay)">
+                    <path d="M7.75008 0.666016C11.6621 0.666016 14.8334 3.83733 14.8334 7.74935C14.8334 9.40479 14.2655 10.9276 13.3139 12.1336L16.5477 15.3684C16.8731 15.6939 16.8731 16.2215 16.5477 16.5469C16.2222 16.8724 15.6946 16.8724 15.3692 16.5469L12.1343 13.3132C10.9283 14.2648 9.40552 14.8327 7.75008 14.8327C3.83806 14.8327 0.666748 11.6614 0.666748 7.74935C0.666748 3.83733 3.83806 0.666016 7.75008 0.666016ZM7.75008 2.33268C4.75854 2.33268 2.33341 4.75781 2.33341 7.74935C2.33341 10.7409 4.75854 13.166 7.75008 13.166C10.7416 13.166 13.1667 10.7409 13.1667 7.74935C13.1667 4.75781 10.7416 2.33268 7.75008 2.33268Z">
+                    </path>
+                </svg>
+                </a>
+            </span>
+        </form>
+        </div>
+        <div>
+            <a href="#">
+                <img src="image/dark-lighte.png" alt="dark-lighte">
+            </a>
+        </div>
+        <div class="">
+            <a href="#" class="items-center flex">
+            <span>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" focusable="false" class="chakra-icon css-9gdywz" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z"></path>
+                  </svg>
+            </span>
+            <p class="pp">
+                for teachers
+            </p> 
+            </a>
+        </div>
+        <div>
+            <a href="#" class="items-center flex">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" aria-hidden="true">
+                    <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" fill="currentColor"></path>
+                  </svg>
+            </span>
+            <p class="pp">
+                Spaces
+            </p>
+            </a>
+        </div>
+        <div>
+            <a href="#" class="items-center flex">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" aria-hidden="true">
+                    <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" fill="currentColor"></path>
+                  </svg>
+            </span>
+            <p class="pp">
+                Certified
+            </p>
+            </a>
+        </div>
+            <div class="dd2 relative">
+            <a href="#" class=" bg-green-500 aa2 absolute ">
+                Sign up
+            </a>
+            </div>
+            <div class="  dd1">
+            <a href="#" class="bg-green-100 aa1 p-2">
+                Log in
+            </a>
+        </div>
+        </div>
+        <div class="w-full zir-head ">
+            <ul class="flex uu justify-between items-center">
+                <li><a href="#">html</a></li>
+                <li><a href="#">c</a></li>
+                <li><a href="#">c#</a></li>
+                <li><a href="#">c++</a></li>
+                <li><a href="#">JAVASCRIPT.</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">BOOTSTRAP</a></li>
+                <li><a href="#">REACT</a></li>
+                <li><a href="#">MYSQL</a></li>
+                <li><a href="#">JQUERY</a></li>
+                <li><a href="#">EXCEL</a></li>
+                <li><a href="#">DJANGO</a></li>
+                <li><a href="#">NODEJS</a></li>
+                <li><a href="#">TYPESCRIPT</a></li>
+                <li><a href="#">MONGODB</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="mt-16">
+        <section id="part1-1" class="part1-1 relative">
+            <div class=" w-6 mx-auto text-center pt-12">
+                <h1 class="text-white hh">
+                    Learn to Code
+                </h1>
+                <h3 class="hh3">
+                    With the world's largest web developer site.
+                </h3>
+                <form action="#" class="form1">
+                    <input type="search" placeholder="Search our tutorials, e.g. HTML" class="search2">
+                    <a href="#" class="aa3">
+                        <span>
+                            <svg width="15" height="15" viewBox="0 0 17 17" fill="var(--sf-accent-overlay)">
+                                <path d="M7.75008 0.666016C11.6621 0.666016 14.8334 3.83733 14.8334 7.74935C14.8334 9.40479 14.2655 10.9276 13.3139 12.1336L16.5477 15.3684C16.8731 15.6939 16.8731 16.2215 16.5477 16.5469C16.2222 16.8724 15.6946 16.8724 15.3692 16.5469L12.1343 13.3132C10.9283 14.2648 9.40552 14.8327 7.75008 14.8327C3.83806 14.8327 0.666748 11.6614 0.666748 7.74935C0.666748 3.83733 3.83806 0.666016 7.75008 0.666016ZM7.75008 2.33268C4.75854 2.33268 2.33341 4.75781 2.33341 7.74935C2.33341 10.7409 4.75854 13.166 7.75008 13.166C10.7416 13.166 13.1667 10.7409 13.1667 7.74935C13.1667 4.75781 10.7416 2.33268 7.75008 2.33268Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
+                </form>
+                <h4 class="hh4 mx-auto">
+                    <a href="#" class="text-white block aa4">
+                        Not Sure Where To Begin?
+                    </a>
+                </h4>
+            </div>
+            <div class="absolute lynx">
+                <img src="image/lynx_in_space.webp" alt="background_in_space" >
+            </div>
+        </section>
+        <div>
+            <span>
+                <svg style="background-color:#D9EEE1;" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+                  </svg>
+            </span>
+        </div>
+        <section id="part1-2" class="part1-2">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html2 no-underline text-center text-black">
+                        Video Tutorial
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html"> 
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                !DOCTYPE
+                                <span class="s3-html">html</span>
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                html
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                title
+                                <span class="s2-html">></span>
+                            </span>
+                            HTML Tutorial
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /title
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                h1
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a heading
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /h1
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                p
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a paragraph.
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /p
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /html
+                                <span class="s2-html">></span>
+                            </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="part1-3" class="part1-3">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html"> 
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                !DOCTYPE
+                                <span class="s3-html">html</span>
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                html
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                title
+                                <span class="s2-html">></span>
+                            </span>
+                            HTML Tutorial
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /title
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                h1
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a heading
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /h1
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                p
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a paragraph.
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /p
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /html
+                                <span class="s2-html">></span>
+                            </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="part1-4" class="part1-4">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html2 no-underline text-center text-black">
+                        Video Tutorial
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html"> 
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                !DOCTYPE
+                                <span class="s3-html">html</span>
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                html
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                title
+                                <span class="s2-html">></span>
+                            </span>
+                            HTML Tutorial
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /title
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                h1
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a heading
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /h1
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                p
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a paragraph.
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /p
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /html
+                                <span class="s2-html">></span>
+                            </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="part1-5" class="part1-5">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html"> 
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                !DOCTYPE
+                                <span class="s3-html">html</span>
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                html
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                title
+                                <span class="s2-html">></span>
+                            </span>
+                            HTML Tutorial
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /title
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                h1
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a heading
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /h1
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                p
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a paragraph.
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /p
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /html
+                                <span class="s2-html">></span>
+                            </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="part1-6" class="part1-6">
+            <div class="dd3 flex  items-center">
+                <div class="dd4">
+                    <h1 class="h-html">
+                        HTML
+                    </h1>
+                    <p class="p-html ">
+                        The language for building web pages
+                    </p>
+                    <a href="#" class="a-html no-underline text-center text-white ">
+                        Learn HTML
+                    </a>
+                    <br>
+                    <a href="#" class="a-html3 no-underline text-center text-white">
+                        HTML Referen
+                    </a>
+                    <br>
+                    <a href="#" class="a-html4 no-underline text-center text-black">
+                        Get Certified
+                    </a>
+                </div>
+                <div class="dd4-4">
+                    <div class="dd5">
+                        <h3 class="h3-html"> 
+                            HTML Example:
+                        </h3>
+                        <div class="dd6">
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                !DOCTYPE
+                                <span class="s3-html">html</span>
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                html
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                title
+                                <span class="s2-html">></span>
+                            </span>
+                            HTML Tutorial
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /title
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /head
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                h1
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a heading
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /h1
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                p
+                                <span class="s2-html">></span>
+                            </span>
+                            This is a paragraph.
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /p
+                                <span class="s2-html">></span>
+                            </span>
+                            <br><br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /body
+                                <span class="s2-html">></span>
+                            </span>
+                            <br>
+                            <span class="s-html">
+                                <span class="s2-html"><</span>
+                                /html
+                                <span class="s2-html">></span>
+                            </span>
+                        </div>
+                        <a href="#" class="a-a-html no-underline text-white text-center">
+                            Try it Yourself
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="part2-1" class="part2-1">
+            <div class=" flex  flex-wrap pt-12">
+                <div class="d-p w-6">
+                <div class=" text-center rounded2 d-part2-1">
+                    <h2 class="h2-part2-1">
+                        PHP
+                    </h2>
+                    <div class="d2-part2-1">
+                        <h5 class="h5-part2-1">
+                            A web server programming language
+                        </h5>
+                    </div>
+                    <a href="#" class="a1-part2-1 no-underline ">
+                        Learn PHP
+                    </a>
+                </div>
+                </div>
+                <div class="d-p w-6">
+                <div class=" text-center rounded2 d3-part2-1">
+                    <h2 class="h2-part2-1">
+                        PHP
+                    </h2>
+                    <div class="d2-part2-1">
+                        <h5 class="h5-part2-1">
+                            A web server programming language
+                        </h5>
+                    </div>
+                    <a href="#" class="a1-part2-1 no-underline ">
+                        Learn PHP
+                    </a>
+                </div>
+                </div>
+                <div class="d-p w-6">
+                <div class=" text-center rounded2 d-part2-1">
+                    <h2 class="h2-part2-1">
+                        PHP
+                    </h2>
+                    <div class="d2-part2-1">
+                        <h5 class="h5-part2-1">
+                            A web server programming language
+                        </h5>
+                    </div>
+                    <a href="#" class="a1-part2-1 no-underline ">
+                        Learn PHP
+                    </a>
+                </div>
+                </div>
+                <div class="d-p w-6">
+                <div class=" text-center rounded2 d3-part2-1">
+                    <h2 class="h2-part2-1">
+                        PHP
+                    </h2>
+                    <div class="d2-part2-1">
+                        <h5 class="h5-part2-1">
+                            A web server programming language
+                        </h5>
+                    </div>
+                    <a href="#" class="a1-part2-1 no-underline ">
+                        Learn PHP
+                    </a>
+                </div>
+                </div>
+                <div class="d-p w-6">
+                <div class=" text-center rounded2 d-part2-1">
+                    <h2 class="h2-part2-1">
+                        PHP
+                    </h2>
+                    <div class="d2-part2-1">
+                        <h5 class="h5-part2-1">
+                            A web server programming language
+                        </h5>
+                    </div>
+                    <a href="#" class="a1-part2-1 no-underline ">
+                        Learn PHP
+                    </a>
+                </div>
+                </div>
+                <div class="d-p w-6">
+                <div class=" text-center rounded2 d3-part2-1">
+                    <h2 class="h2-part2-1">
+                        PHP
+                    </h2>
+                    <div class="d2-part2-1">
+                        <h5 class="h5-part2-1">
+                            A web server programming language
+                        </h5>
+                    </div>
+                    <a href="#" class="a1-part2-1 no-underline ">
+                        Learn PHP
+                    </a>
+                </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer class="w-full mttttj bg-green-200">
+        <div class="bg-green- flex items-center justify-center mbppp">
+            footer ?????
+        </div>
+    </footer>
+</body>
+</html>
